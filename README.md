@@ -1,18 +1,6 @@
 # Emojify
 Turn your facial expression into an emoji.
 
-## Note
-This project is still under development. Expect errors in recognition of emoji or other errors.
-
-## What I did here
-1. Decided what emojis to use.
-2. Stored 250 faces for each facial expression in a special way. The special way is that I took only the eyebrows, eyes, nose and mouth of the face. Rest of the face is removed. (Only my face was used)
-3. Trained a CNN on these images.
-4. As of today there are 11 facial expressions. (Discussed later).
-
-## Outcome
-Watch it <a href="https://youtu.be/izUO2rl0Ur8">here</a>.
-
 ## Requirements 
 0. Python 3.x
 1. <a href="https://tensorflow.org">Tensorflow 1.5</a>
@@ -39,7 +27,6 @@ Watch it <a href="https://youtu.be/izUO2rl0Ur8">here</a>.
 10 - Disgusted<br>
 
 ## How to use this repo
-This project is done by me and me only. No one else helped me. The model is trained with my face only. So the model might not detect your expressions correctly. Here is what you can do. If you are a newbie to neural networks or machine learning please learn them. This guide contains a lot of technical stuff which you might find hard to understand. 
 
 ### Create your facial expression dataset
 1. Start this file 
@@ -99,6 +86,3 @@ You will see why this method is a bit hard.
 If you want to contribute to the dataset then please make a pull request. I will be more than happy to merge the present dataset with your dataset. Just make sure you have moved the contents of the new_dataset/ folder to the dataset/ folder before making a pull request.<br>
 If you can optimize the code then feel free to inform me.
 
-## How to cite
-Saha, D.. (2018, May 9). emojify (Version 1). figshare. https://doi.org/10.6084/m9.figshare.6241934.v1. Turn your facial expression into an emoji
-"# FacialExpressions_to_emoji" 
